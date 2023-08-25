@@ -1,0 +1,30 @@
+{
+  "name": "mern-carteiras-digital-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MERN: Criando os Pilares de uma Carteira Digital com Node.js, Express e MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandroalvesmachado/mern-carteiras-digital-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandroalvesmachado/mern-carteiras-digital-api/issues"
+  },
+  "homepage": "https://github.com/leandroalvesmachado/mern-carteiras-digital-api#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
