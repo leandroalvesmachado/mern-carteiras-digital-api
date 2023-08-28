@@ -1,5 +1,7 @@
 import mongoose from "mongoose";
 import "dotenv/config";
+
+// atlas cloud mongodb
 // leandroalvesmachado
 // pxrqmB8UntoVb2DD
 // 45.181.93.70/32
