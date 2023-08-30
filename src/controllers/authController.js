@@ -38,5 +38,6 @@ async function userLogged(req, res) {
 
 export default { 
   signup, 
-  signin
+  signin,
+  userLogged
 };
