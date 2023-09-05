@@ -3,6 +3,7 @@ import { connectDb } from "./config/database.js";
 import "dotenv/config";
 import authRouter from "./routes/authRoutes.js";
 import transactionRouter from "./routes/transactionRoutes.js";
+import cors from "cors";
 
 const app = express();
 const port = process.env.PORT;
@@ -12,6 +13,7 @@ const port = process.env.PORT;
 
 connectDb();
 app.use(json());
+app.use(cors());
 app.use(authRouter);
 app.use(transactionRouter);
 app.listen(port, () => console.log(`Servidor executando na porta ${port}`));
